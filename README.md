@@ -13,6 +13,7 @@ It will be using Hexo AWS and Node.JS
 
 
 ## NPM Commands for record
+- npm i --save hexo-deployer-s3 "installs plug in for AWS S3 deployment"
 
 
 
