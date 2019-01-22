@@ -18,6 +18,12 @@ It will be using Hexo AWS and Node.JS
 
 
 ## Local Development
+- hexo server "starts the local hexo server"
+
+
+## Environment Variables 
+- export AWS_SECRET_ACCESS_KEY=yourkeyhere
+- export AWS_ACCESS_KEY_ID=youridhere
 
 
 

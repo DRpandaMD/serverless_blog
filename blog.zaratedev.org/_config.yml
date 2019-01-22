@@ -82,9 +82,6 @@ deploy:
   bucket: blog.zaratedev.org
   aws_key: <AWS id key>  // Optional, if the environment variable `AWS_ACCESS_KEY_ID` is set
   aws_secret: <AWS secret key>  // Optional, if the environment variable `AWS_SECRET_ACCESS_KEY` is set
-  aws_cli_profile: <an AWS CLI profile name, e.g. 'default'> // Optional
-  concurrency: <number of connections> // Optional
-  region: <region>  // Optional, see https://github.com/LearnBoost/knox#region
-  headers: <headers in JSON format> // pass any headers to S3, usefull for metadata cache setting of Hexo assets
-  prefix: <prefix> // Optional, prefix ending in /
-  delete_removed: true 
+  aws_cli_profile: default
+  region: us-east-1
+  delete_removed: true
