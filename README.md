@@ -1,8 +1,6 @@
 
 # Michael Zarate's Serverless Blog
 
-It will be using Hexo AWS and Node.JS 
-
 
 ## Technologies Used
 - Brew for Mac OS
@@ -15,11 +13,18 @@ It will be using Hexo AWS and Node.JS
 ## NPM Commands for record
 - npm i --save hexo-deployer-s3 "installs plug in for AWS S3 deployment"
 
+___
+
 
 
 ## Local Development
 - hexo server "starts the local hexo server"
+### hexo commands to prep for deployment
+- hexo clean
+- hexo generate
+- hexo deploy
 
+___
 
 ## Environment Variables 
 - export AWS_SECRET_ACCESS_KEY=yourkeyhere
